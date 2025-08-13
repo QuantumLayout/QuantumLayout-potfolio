@@ -1,5 +1,5 @@
-
 body {
+  min-height: 100vh;
   background: linear-gradient(90deg, #190028, #130053);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(178, 178, 178);
@@ -15,7 +15,7 @@ header {
   overflow: hidden;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -23,6 +23,7 @@ header {
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  margin-right: 7vw;
 }
 
 .banner h1 {
@@ -56,7 +57,8 @@ img {
   margin: auto;
   background: linear-gradient(145deg, #2b1553, #3c2776);
   backdrop-filter: blur(6px);
-  width: 60%;
+  width: 50%;
+  height: 100%;
   padding: 10px 35px;
   margin-top: 50px;
   border-radius: 20px;
@@ -74,12 +76,27 @@ h2, h3 {
 
 .all-services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
   row-gap: 60px;
   column-gap: 100px; 
   padding: 20px;
   margin-top: 100px;
   justify-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: space-around;
+  column-gap: 75px;
+}
+
+.grid1 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .services {
@@ -111,15 +128,9 @@ h2, h3 {
 }
 
 @keyframes cycleGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 footer {
@@ -145,48 +156,60 @@ footer p:not(.c){
   margin-bottom: 20px;
 }
 
+/* Tablet & Mobile responsive layout for services */
+@media screen and (max-width: 1024px) {
+  .all-services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .about-me {
+    width: 70%;
+  }
+  .grid1, .grid2 {
+    display: contents;
+  }
+  .services {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about-me {
     width: 90%;
     padding: 20px;
   }
-
   .banner h1 {
     font-size: 36px;
   }
-
   .banner p {
     font-size: 16px;
   }
-
   header {
     flex-direction: column;
     align-items: center;
     height: auto;
     padding: 20px 0;
   }
-
   img {
     margin: 10px 0;
   }
-
   .banner {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
-
   .all-services {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 10px;
   }
-
+  .grid1, .grid2 {
+    display: contents;
+  }
   .services {
     max-width: 90%;
     margin: 0 auto;
   }
-
   footer p {
     font-size: 14px;
   }
