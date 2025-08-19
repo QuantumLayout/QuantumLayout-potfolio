@@ -315,7 +315,7 @@ nav {
 }
 
 .cert-grid {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .cert {
@@ -326,8 +326,8 @@ nav {
     border: 3px solid #f5f6f7;
     text-decoration: none;
     color: #E4E4E4;
-    width: 25vw;
-    height: 50vh;
+    width: 30vw;
+    height: 60vh;
     padding: 0;
     background-color: #3a3b4f;
 }
