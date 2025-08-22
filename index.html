@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumLayout Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="LOGO (2).png" type="image/x-icon" />
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="LOGO.png" alt="QuantumLayout LOGO" class="logo" id="logo" loading="lazy">
+                
+            <p class="img-text"><i class="fa-solid fa-arrow-left"></i> This is the QuantumLayout Logo.</p>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const container = document.querySelector(".logo-container");
+
+              container.addEventListener("click", () => {
+                container.classList.toggle("active");
+              });
+            });
+        </script>
+        <ul class="navbar">
+            <li class="navlink"><a href="#home">Home</a></li>
+            <li class="navlink"><a href="#about-me">About Me</a></li>
+            <li class="navlink"><a href="#services">Services</a></li>
+            <li class="navlink"><a href="#projects">Projects</a></li>
+            <li class="navlink"><a href="#certifications">Certifications</a></li>
+            <li class="navlink"><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="welcome">
+                <h1>Hi, I'm QuantumLayout</h1>
+                <p>a web developer</p>
+            </div>
+        </section>
+        <section id="about-me">
+            <h3>I'm QuantumLayout, <span class="my-real-name">also known as Islam</span>, a front-end developer passionate about creating modern, responsive websites.</h3>
+            <p>
+              I'm a front-end developer with 2 years of experience and a solid understanding of web fundamentals and a focus on creating responsive, accessible, and well-structured websites.
+              I enjoy translating design mockups into functional and visually polished websites using clean, maintainable code.
+              My approach balances visual design, performance, and semantic HTML structure — ensuring a smooth experience for both users and developers.
+            </p>
+  
+            <h3>My Core Skills Include:</h3>
+            <ul>
+              <li><strong>HTML5 & Semantic Markup</strong> - writing clean and accessible code with proper structure and element use.</li>
+              <li><strong>CSS3 & Responsive Design</strong> - building flexible layouts with media queries, Flexbox, and Grid.</li>
+              <li><strong>JavaScript (Vanilla)</strong> - adding interactivity, DOM manipulation, and simple dynamic behavior.</li>
+              <li><strong>Figma to HTML/CSS Conversion</strong> - translating design files into pixel-perfect, responsive pages.</li>
+              <li><strong>Cross-Browser Compatibility</strong> - ensuring consistency across Chrome, Firefox, Safari, and mobile browsers.</li>
+              <li><strong>Basic Web Animations & Transitions</strong> - using CSS transitions and keyframes to enhance user experience.</li>
+            </ul>
+  
+            <h3>Let's Work Together</h3>
+            <p>
+              Whether you need a landing page, a responsive static website, or a Figma-to-code conversion, feel free to scroll down to see the services I offer!
+              If you're looking for a developer who cares about code quality, design consistency, and delivering polished results — I'd love to collaborate.
+            </p>
+        </section>
+        <section id="services">
+            <div class="services-main">
+                <h1>I have 2 main services on Fiverr</h1>
+                <p>Check out my services below and choose the one that fits your project best.</p>
+            </div>
+            <hr>
+            <div class="services-container">
+                <a href="https://www.fiverr.com/quantumlayout/build-a-modern-static-website-or-landing-page-using-html-css" 
+                target="_blank" class=" service service-1">
+                    <img src="service 1.png" alt="Service 1 Image">
+                    <div class="services-text-container services-text-container-1"><span class="services-text-container-other services-text-container-other-1"> < </span><p class="services-text-container-main services-text-container-main-1">Custom Static Websites</p><span class="services-text-container-other services-text-container-other-2"> /> </span></div>
+                </a>
+                <a href="https://www.fiverr.com/quantumlayout/convert-your-figma-design-into-pixel-perfect-html-and-css" 
+                target="_blank" class=" service service-2">
+                    <img src="service 2.png" alt="Service 2 Image">
+                    <div class="services-text-container services-text-container-2"><span class="services-text-container-other services-text-container-other-3"> < </span><p class="services-text-container-main services-text-container-main-2">Figma to HTML conversion</p><span class="services-text-container-other services-text-container-other-4"> /> </span></div>
+                </a>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects-main">
+                <h1>Here are some of my projects</h1>
+                <p>Take a look at them:</p>
+            </div>
+            <div class="projects-container">
+                <a href="https://quantumlayout.github.io/Password-Strength-Calculator/" target="_blank" class="project project1">
+                    <img src="project 1.png" alt="Password strength calculator image">
+                    <div class="project-text project1-text">
+                        <span class="project-text-other project1-text-other1"> < </span><p class="project-text-main project1-text-main">Password Strength Calculator</p><span class="project-text-other project2-text-other2"> /> </span>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="certifications">
+            <div class="cert-main">
+                <h1>My Certifications</h1>
+                <p>Here are some of my latest verified certifications:</p>
+                <p class="secret" style="font-size: 1rem;">I only have 1 certification ¯\_(ツ)_/¯, but there will be many more to show in the near future!</p>
+            </div>
+            <hr>
+            <!-- I only have 1 certification ¯\_(ツ)_/¯, but there will be many more to show in the near future! -->
+            <div class="cert-grid">    
+                <a class="cert cert-1" href="https://www.freecodecamp.org/certification/quantumlayout/responsive-web-design" target="_blank">
+                    <img src="certification 1.png" alt="Responsive Web Design Certification">
+                    <div class="cert-text cert1-text">
+                        <div class="cert-text-main cert1-text-main"><p>Responsive Web Design</p><span></div>
+                        <p class="issued issued1">Issued by freeCodeCamp.org <i class="fab fa-free-code-camp" id="fcc-logo"></i></p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="contact-me">
+            <div class="contact-me-main">
+                <h1>Let's Work <span class="together">Together</span></h1>
+                <p>How would you like your coffee?</p>
+            </div>
+            <ul class="contact-options">
+                <li class="contact-option"><a href="https://github.com/quantumlayout" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li class="contact-option"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=quantumlayout@gmail.com" target="_blank"><i class="fas fa-at"></i> Mail Me</a></li>
+                <li class="contact-option"><a href="https://www.fiverr.com/quantumlayout/" target="_blank">Fiverr</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Made by Islam (QuantumLayout) with <i class="passion">passion.</i></p>
+        <p class="update">This was the QuantumLayout Portfolio Website v2.4.0, updated on 22/8/2025.</p>
+    </footer>
+</body>
+
+</html>
