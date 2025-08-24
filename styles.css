@@ -847,7 +847,7 @@ footer {
     .projects-container {
         flex-direction: column;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 45vw;
     }
     .project-text {
@@ -909,7 +909,7 @@ footer {
     .services-text-container {
         font-size: 1.6rem;;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 40vw;
     }
     .project-text {
@@ -990,7 +990,7 @@ footer {
     .services-container {
         flex-direction: column;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 55vw;
     }
     .projects-container {
@@ -1068,7 +1068,7 @@ footer {
     .services-container {
         flex-direction: column;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 65vw;
     }
     .projects-container {
@@ -1156,7 +1156,7 @@ footer {
     .services-container {
         flex-direction: column;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 65vw;
     }
     .projects-container {
@@ -1253,7 +1253,7 @@ footer {
     .services-main {
         margin-top: 0;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 65vw;
     }
     .projects-container {
@@ -1342,7 +1342,7 @@ footer {
     .services-main {
         margin-top: 0;
     }
-    .project1, .project2-main-container {
+    .project {
         width: 65vw;
     }
     .projects-container {
