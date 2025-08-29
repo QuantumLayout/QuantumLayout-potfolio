@@ -47,7 +47,7 @@ nav {
     background-color: #2a2060ce;
     width: 100%;
     min-height: 10vh !important;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     z-index: 100;
     box-shadow: 0 3px 3px rgb(0, 0, 0);
@@ -97,7 +97,6 @@ nav {
     font-family: 'Poppins', 'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
-    height: 100%;
     width: max-content;
     margin-right: 1vw;
     list-style-type: none;
