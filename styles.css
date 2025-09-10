@@ -69,6 +69,7 @@ nav {
     height: 65px;
     transition: all 200ms ease;
     margin-top: auto;
+    margin-bottom: auto;
     margin-left: 2vw;
     z-index: 100;
 }
@@ -1459,6 +1460,7 @@ footer {
         text-align: left;
     }
 }
+
 
 
 
